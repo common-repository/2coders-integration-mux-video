@@ -1,0 +1,39 @@
+// Colors
+$grey800: #383838;
+$grey300: #8E8E8E;
+$grey200: #C1C1C1;
+$grey100: #F6F6F6;
+$grey50: #FBFBFB;
+$greyAPI: #E5E8EB;
+
+$green: #00AA3C;
+$green-light: #eeffe9;
+$green-hovered: #018630;
+$red: #EA3737;
+$yellow: #FFB200;
+$blue: #0038D2;
+$pink: $blue; // #FA50B5
+$blue-op: rgba(0, 114, 227, 0.15);
+$blue-hovered: #002384;
+$white: #FFF;
+$putty: $greyAPI; //#E2E4DD
+$grey: #828C97;
+$characoal: #24262B;
+$black: #000;
+
+//font-size;
+$font-size-xs: 12px;
+$font-size-s: 14px;
+$font-size-m: 16px;
+$font-size-l: 20px;
+
+// Responsive breakpoints
+$laptop-large-breakpoint: 1400px;
+$tablet-breakpoint: 768px;
+
+$asset-list-table-breakpoint: 1125px;
+
+$wp-header-height: 32px;
+$muxvideo-header-height: 60px;
+
+$content-max_width: 1600px;

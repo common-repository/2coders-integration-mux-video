@@ -1,0 +1,194 @@
+.two-coders-integration-mux-video-page-settings {
+
+    form {
+        width: 450px;
+        
+        @media screen and (max-width: $tablet-breakpoint) {
+            width: 100%;
+        }
+
+        &.config-ready{
+            .form-table{
+                opacity: 0.5;
+                pointer-events: none;
+
+                tbody > tr:nth-child(2){
+                    display: none;
+                }
+            }    
+        }
+
+        .form-table{
+            margin: 0;
+        }
+
+        tr {
+            display: grid;
+
+            th {
+                padding: 20px 10px 5px 0;
+                font-weight: 400;
+            }
+
+            td {
+                position: relative;
+                padding: 5px 0;
+
+                p {
+                    color: $red
+                }
+
+                i {
+                    color: $red;
+                    font-size: 20px;
+                    position: absolute;
+                    top: 24%;
+                    right: 2%;
+                }
+            }
+        }
+
+        input[type=text], input[type=password] {
+            border: 1px solid #e4e4e4;
+            padding: 0.8rem;
+            padding-right: 2.5rem;
+            width: 100%;
+            max-width: 500px;
+            overflow: hidden;
+
+            &.valid {
+                // border: 1px solid #28AC5D;
+            }
+
+            &.invalid {
+                border: 1px solid $red;
+            }
+        }
+
+        input[type=submit] {
+            @extend .btn;
+            @extend .btn-save;
+        }
+
+        #submit-security-settings{
+            font-size: $font-size-s;
+        }
+    }
+
+    .muxvideo-settings__auth{
+        form h2{
+            display: none; // Hide title section displayed by WP sections
+        }
+    }
+
+    #success-msg .success-container {
+        &__title {
+            font-size: $font-size-m;
+            color: $green;
+            border-left: 2px solid $green;
+            margin: 0;
+            background: $green-light;
+            padding: 0.25rem 1rem;
+        }
+    }
+
+
+    .auth-status-container p {
+        font-size: 14px;
+        line-height: 2.5;
+    }
+
+    .icon-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 5rem;
+    }
+
+    .icon-column .icon {
+        z-index: 10;
+    }
+
+    .blur-background {
+        position: absolute;
+        width: 113px;
+        height: 113px;
+        background: #FFC5CF;
+        filter: blur(35px);
+        z-index: 1;
+    }
+
+    .btn-tertiary {
+        padding: 7px 18px;
+
+        &.btn-edit-keys{
+            margin-bottom: -20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            float: right;
+            color: black;
+            padding: 5px 10px;
+        }
+    }
+
+}
+
+.muxvideo-settings-security {
+
+    &__title {
+        font-size: $font-size-m;
+    }
+
+    &__description {
+        font-size: $font-size-s;
+        color: $grey;
+    }
+
+    .tag-container {
+        display: inline-block;
+
+        input {
+            width: 400px;
+        }
+
+        &__tags {
+            max-width: 400px;
+            margin: 10px 0;
+
+            .tag {
+                display: inline-block;
+                background: $greyAPI;
+                border: 0.5px solid $grey;
+                margin-right: 4px;
+                margin-bottom: 8px;
+                padding: 3px 8px;
+
+                .tag-text {
+                    color: $black;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                .tag-remove {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-left: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    &__referrer-container {
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        margin: 1rem 0;
+        gap: 1rem;
+    }
+}
+
+.tabs-nav *{
+    font-size: $font-size-m;
+}

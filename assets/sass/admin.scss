@@ -1,0 +1,136 @@
+@import "variables";
+@import "freemius";
+@import "components/content.scss";
+@import "components/button.scss";
+@import "components/input.scss";
+@import "components/tabs.scss";
+@import "components/shortcode_customizer.scss";
+@import "components/notices.scss";
+@import "components/transitions.scss";
+
+@import "components/settings.scss";
+@import "components/asset_upload.scss";
+@import "components/asset_list.scss";
+
+@font-face {
+    font-family: 'Akkurat';
+    src: url('../fonts/Akkurat.ttf');
+}
+
+@font-face {
+    font-family: 'Akkurat-bold';
+    src: url('../fonts/Akkurat-Bold.ttf');
+}
+
+.muxvideo-page {
+    font-family: 'Akkurat', sans-serif;
+}
+
+h1 {
+    line-height: initial;
+}
+
+.header-container {
+    display: inline-flex;
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+.header-container #message {
+    position: absolute;
+}
+
+.droparea .message {
+    text-align: center;
+}
+
+.two-coders-integration-mux-video-body {
+    #wpcontent {
+        padding: 0;
+        overflow: hidden;
+        min-height: 80vh;
+    }
+}
+
+.muxvideo-header {
+    width: 100%;
+    padding: 0 2rem;
+    height: $muxvideo-header-height;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background: #E5E8EB;
+    margin: 0;
+    box-sizing: border-box;
+
+    >* {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        gap: 1rem;
+
+        img {
+            height: 50px;
+        }
+
+        h1 {
+            font-size: 22px;
+            margin: 0;
+            color: $black;
+        }
+    }
+
+    &__information {
+        gap: 1rem;
+
+        span {
+            padding: 5px 10px;
+            border: 0.5px solid $grey300;
+            border-radius: 50px;
+        }
+
+        @media screen and (max-width: $tablet-breakpoint) {
+            &__version{
+                display: none;
+            }
+        }
+    }
+
+}
+
+.muxvideo-container {
+    max-width: $content-max_width;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 2rem 2rem;
+
+    @media screen and (max-width: $laptop-large-breakpoint) {
+        padding-top: 0;
+        grid-template-columns: 100%;
+    }
+}
+
+
+.muxvideo_fs-premium{
+    
+    .muxvideo-container{
+        grid-template-columns: 100%;
+        
+        @media screen and (max-width: $laptop-large-breakpoint){
+            padding-top: 2rem;
+        }
+
+        .inner-container{
+            margin-right: 0;
+        }
+    }
+}
+
+.muxvideo-settings {
+    display: flex;
+}

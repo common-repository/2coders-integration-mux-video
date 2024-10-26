@@ -1,0 +1,55 @@
+
+.muxvideo-notice{
+    position: fixed;
+    right: 0;
+    top: calc(#{$wp-header-height} + 10px);
+    min-width: 500px;
+    z-index: 99999;
+
+    &__container {
+        margin-right: 3rem;
+        padding-bottom: 0;
+        box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.17);
+
+        @media screen and (max-width: $laptop-large-breakpoint) {
+            margin-right: 2rem;
+        }
+    }
+
+    &__msg {
+        padding: 1rem;
+        font-family: 'Akkurat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        -webkit-box-shadow: 0px 0px 17px -6px rgba( 0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 17px -6px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 17px -6px rgba(0,0,0,0.25);
+    }
+    
+    &__success{
+        background: rgb(205, 235, 205);
+        border-left: 3px solid green;
+        color: green;
+
+         .delete-alert {
+            color: green;
+            cursor: pointer;
+        }
+    }
+    
+    &__error{
+        background: #EED7D2;
+        border-left: 3px solid #C60E0E;
+        color: #C60E0E;
+         
+        .delete-alert {
+            color: #C60E0E;
+            cursor: pointer;
+        }
+    }
+}

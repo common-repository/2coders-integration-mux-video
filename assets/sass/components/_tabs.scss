@@ -1,0 +1,57 @@
+.tabs-nav {
+    margin: 0;
+    padding: 0;
+    background-color: $white;
+    border-bottom: 1px solid $grey200;
+
+    li {
+        display: inline-block;
+        margin-bottom: 0;
+
+        &.disabled {
+            pointer-events: none;
+
+            a {
+                color: $grey;
+            }
+        }
+
+        a {
+            display: block;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            color: $black;
+            padding: 15px;
+
+            &:hover {
+                color: $blue;
+            }
+        }
+
+        &.tab-active a {
+            color: $black;
+            cursor: default;
+            font-weight: bold;
+            border-bottom: 2px solid $blue;
+            margin-bottom: -1px;
+            background: $grey100 ;
+        }
+    }
+}
+
+.tabs-container {
+    padding: 24px 30px;
+
+    .tab {
+        display: none;
+
+        &:first-child {
+            display: block;
+        }
+    }
+}
+
+.muxvideo-assets-page .tabs-nav {
+    border: none;
+}

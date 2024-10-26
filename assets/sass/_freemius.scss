@@ -1,0 +1,263 @@
+.two-coders-integration-mux-video-page-account, .two-coders-integration-mux-video-page-pricing{
+    .muxvideo-header, #wpbody{
+        font-family: 'Akkurat', sans-serif;
+    }
+}
+
+#wpcontent {
+
+    #fs_connect {
+
+        overflow: hidden;
+        box-shadow: none;
+
+        .fs-header {
+            height: auto;
+
+            .fs-plugin-icon {
+                width: auto;
+                background: $pink;
+                position: relative;
+                top: auto;
+                left: auto;
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                overflow: hidden;
+                border-radius: 0;
+                z-index: 1;
+            }
+
+            img {
+                border-radius: 0;
+            }
+        }
+
+        .fs-box-container {
+            padding: 0;
+            border-radius: 0;
+            box-shadow: none;
+
+            .fs-content {
+                padding-top: 10px;
+            }
+        }
+
+        .button {
+            @extend .btn;
+            height: auto;
+        }
+
+        .button-primary {
+            @extend .btn-primary;
+            border: 1px solid $blue !important;
+        }
+
+        .button-secondary {
+            border: 1px solid #929292 !important;
+        }
+
+    }
+
+    #fs_account {
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+
+        .postbox{
+            padding: 1rem;
+        }
+
+        .fs-header-actions {
+            right: 1.6rem;
+            li form {
+                @extend .fs-btn-secondary;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    color: $characoal;
+                    gap: 5px;
+                }
+            }
+        }
+
+        h3 {
+            font-size: 24px;
+            border: none;
+
+            .dashicons {
+                display: none !important;
+            }
+        }
+
+        tr {
+
+            &.alternate {
+                background-color: $grey100;
+            }
+
+            td {
+                color: $grey;
+                text-align: left;
+
+                code {
+                    color: $black;
+                }
+            }
+
+            // Hide "Join the Beta program" from account details
+            &.fs-field-beta_program {
+                display: none !important;
+            }
+        }
+
+        .button-group {
+            display: flex;
+            gap: 1rem;
+
+            form a,
+            form input {
+                @extend .fs-btn-secondary;
+                padding: 0px 18px !important;
+            }
+
+            .fs-upgrade {
+                @extend .button-primary;
+                border-color: $blue;
+
+                i {
+                    display: none !important;
+                }
+            }
+        }
+
+        .button-small {
+            color: $black;
+            border: none;
+            background: transparent;
+            text-decoration: underline;
+
+            &:focus,
+            &:active {
+                border: none;
+                outline: 0;
+            }
+        }
+
+    }
+}
+
+.two-coders-integration-mux-video-page-account {
+
+    .fs-modal .fs-modal-header{
+        background-color: $greyAPI;
+
+        h4{
+            color: $black;
+        }
+    }
+    
+    .fs-modal{
+        button.button{
+            padding: 5px 15px;
+            border-radius: 50px;
+        }
+    }
+
+    .fs-modal-footer{
+        
+        .button-primary{
+            padding: 5px 15px;
+        }
+    }
+
+    .button-primary{
+        background: $blue;
+        color: white;
+        border-radius: 50px;
+
+        &.button-update, &.button-activate-license{
+            padding: 5px 15px;
+        }
+
+        &:hover {
+            background: $blue-hovered;
+        }
+    }
+
+    .fs-section {
+
+        .nav-tab-wrapper {
+            display: none !important
+        }
+    }
+
+    input, .fs-key-value-table input[type=text] {
+        color: $black;
+        box-sizing: border-box;
+
+        &:focus {
+            outline: none;
+            border-color: $black;
+        }
+
+        ::before{
+            background-color: $blue;
+        }
+    }
+}
+
+.fs-btn-secondary, .two-coders-integration-mux-video-page-muxvideo-account .button-secondary {
+    color: $characoal;
+    background-color: $white;
+    padding: 5px 15px;
+    border: 0.5px solid $grey300;
+    border-radius: 50px;
+
+    &:hover {
+        background-color: $grey50;
+        color: $characoal;
+        border-color: $grey300;
+    }
+}
+
+#wpbody .fs-secure-notice{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.toplevel_page_mux .fs-submenu-item.pricing.upgrade-mode {
+    color: $white;
+    padding: 5px 10px;
+    background: $pink;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    transition: all .3s;
+
+    &:hover{
+        background: $blue-hovered;
+    }
+}
+
+.container__muxvideo-contact{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: $greyAPI;
+
+    &.container{
+        padding: 0 2rem;
+    }
+
+    &__title{
+        font-size: $font-size-m;
+        font-weight: bold;
+    }
+
+    &__btn.btn.btn-primary{
+        min-width: 100px;
+        padding: 5px 10px; 
+    }
+}

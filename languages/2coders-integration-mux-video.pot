@@ -1,0 +1,530 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mux Media\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 12:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.0.2\n"
+"X-Domain: mux-media"
+
+#. Author of the plugin
+msgid "2Coders Studio"
+msgstr ""
+
+#: includes/admin.php:52 includes/admin.php:62
+msgid "admin_message_format_error"
+msgstr ""
+
+#: includes/admin.php:78 views/settings.php:32
+msgid "admin_title_key_section"
+msgstr ""
+
+#: includes/admin.php:82
+msgid "admin_title_secret_key"
+msgstr ""
+
+#: includes/admin.php:80
+msgid "admin_title_site_key"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:90
+msgid "asset_list_asset_content_details"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:119
+msgid "asset_list_asset_content_details_aspect_ratio"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:101
+msgid "asset_list_asset_content_details_duration"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:95
+msgid "asset_list_asset_content_details_id"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:113
+msgid "asset_list_asset_content_details_max_frame_rate"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:107
+msgid "asset_list_asset_content_details_max_resolution"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:72
+msgid "asset_list_asset_content_streamurl"
+msgstr ""
+
+#: includes/translations.php:9
+msgid "asset_list_asset_status_disabled"
+msgstr ""
+
+#: includes/translations.php:7
+msgid "asset_list_asset_status_errored"
+msgstr ""
+
+#: includes/translations.php:8
+msgid "asset_list_asset_status_preparing"
+msgstr ""
+
+#. File to load all translations to the pot file that are not added by default (js files, etc.)
+#: includes/translations.php:6
+msgid "asset_list_asset_status_ready"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:49
+msgid "asset_list_button_copy_shortcode"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:59
+msgid "asset_list_button_customize_shortcode"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:60
+msgid "asset_list_button_delete_asset"
+msgstr ""
+
+#: views/asset-list.php:47
+msgid "asset_list_button_load_more"
+msgstr ""
+
+#: views/asset-list.php:28
+msgid "asset_list_button_upload_video"
+msgstr ""
+
+#: includes/functions-components.php:21
+msgid "asset_list_hours"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:52
+msgid "asset_list_message_shortcode_copied"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:84
+msgid "asset_list_message_url_copied"
+msgstr ""
+
+#: includes/functions-components.php:22
+msgid "asset_list_minutes"
+msgstr ""
+
+#: includes/functions-components.php:23
+msgid "asset_list_seconds"
+msgstr ""
+
+#: views/asset-list.php:38
+msgid "asset_list_table_title_date"
+msgstr ""
+
+#: views/asset-list.php:37
+msgid "asset_list_table_title_duration"
+msgstr ""
+
+#: views/asset-list.php:35
+msgid "asset_list_table_title_id"
+msgstr ""
+
+#: views/asset-list.php:34
+msgid "asset_list_table_title_preview"
+msgstr ""
+
+#: views/asset-list.php:36
+msgid "asset_list_table_title_status"
+msgstr ""
+
+#: views/asset-list.php:22
+msgid "asset_list_title_page"
+msgstr ""
+
+#: includes/translations.php:10
+msgid "asset_list_warn_modal_delete_asset_cancel"
+msgstr ""
+
+#: includes/translations.php:11
+msgid "asset_list_warn_modal_delete_asset_confirm"
+msgstr ""
+
+#: includes/translations.php:12
+msgid "asset_list_warn_modal_delete_asset_description"
+msgstr ""
+
+#: includes/translations.php:13
+msgid "asset_list_warn_modal_delete_asset_title"
+msgstr ""
+
+#: includes/translations.php:14
+msgid "asset_upload_asset_status_cancelled"
+msgstr ""
+
+#: includes/translations.php:15
+msgid "asset_upload_asset_status_cancelling"
+msgstr ""
+
+#: includes/translations.php:16 includes/translations.php:17
+msgid "asset_upload_button_cancel_upload"
+msgstr ""
+
+#: views/asset-upload.php:52
+msgid "asset_upload_button_view_assets"
+msgstr ""
+
+#: views/asset-upload.php:93
+msgid "asset_upload_instructions_message_first"
+msgstr ""
+
+#: views/asset-upload.php:94
+msgid "asset_upload_instructions_message_second"
+msgstr ""
+
+#: views/asset-upload.php:78
+msgid "asset_upload_message_drop_video"
+msgstr ""
+
+#: views/asset-upload.php:78
+msgid "asset_upload_message_drop_video_2"
+msgstr ""
+
+#: views/asset-upload.php:82
+msgid "asset_upload_message_drop_video_hovered"
+msgstr ""
+
+#: views/asset-upload.php:79
+msgid "asset_upload_message_or"
+msgstr ""
+
+#: views/asset-upload.php:80
+msgid "asset_upload_message_pick_file"
+msgstr ""
+
+#: views/asset-upload.php:60 views/asset-upload.php:66
+msgid "asset_upload_privacy_switcher_public"
+msgstr ""
+
+#: views/asset-upload.php:59 views/asset-upload.php:64
+msgid "asset_upload_privacy_switcher_signed"
+msgstr ""
+
+#: views/asset-upload.php:55
+msgid "asset_upload_privacy_title"
+msgstr ""
+
+#: views/asset-upload.php:51
+msgid "asset_upload_title_page"
+msgstr ""
+
+#: includes/translations.php:18
+msgid "asset_upload_warn_modal_uploading_cancel"
+msgstr ""
+
+#: includes/translations.php:19
+msgid "asset_upload_warn_modal_uploading_confirm"
+msgstr ""
+
+#: includes/translations.php:20
+msgid "asset_upload_warn_modal_uploading_description"
+msgstr ""
+
+#: includes/translations.php:21
+msgid "asset_upload_warn_modal_uploading_title"
+msgstr ""
+
+#: includes/functions.php:279
+msgid "common_disclaimer_text"
+msgstr ""
+
+#: views/asset-upload.php:92 views/settings.php:69
+msgid "common_instructions_title"
+msgstr ""
+
+#: includes/functions.php:270
+msgid "common_notice_configuration_pending"
+msgstr ""
+
+#: includes/translations.php:32
+msgid "common_notice_error_deleted_asset"
+msgstr ""
+
+#: includes/translations.php:33
+msgid "common_notice_error_unauth_asset"
+msgstr ""
+
+#: includes/functions.php:292
+msgid "common_notice_new_version_available"
+msgstr ""
+
+#: includes/functions.php:292
+msgid "common_notice_new_version_available_cta"
+msgstr ""
+
+#: includes/translations.php:22
+msgid "common_notice_offline"
+msgstr ""
+
+#: includes/translations.php:23
+msgid "common_notice_online_back"
+msgstr ""
+
+#: includes/translations.php:35
+msgid "common_notice_saved_security_settings"
+msgstr ""
+
+#: includes/translations.php:34
+msgid "common_notice_shortcode_copied_success"
+msgstr ""
+
+#: views/templates/pro_version_banner.php:7 views/templates/sidebar.php:8
+msgid "common_premium_banner_description"
+msgstr ""
+
+#: views/templates/pro_version_banner.php:6 views/templates/sidebar.php:7
+msgid "common_premium_banner_title"
+msgstr ""
+
+#: views/templates/pro_version_banner.php:5 views/templates/sidebar.php:5
+msgid "common_premium_name"
+msgstr ""
+
+#: includes/translations.php:24
+msgid "error_format_not_supported"
+msgstr ""
+
+#: includes/translations.php:25
+msgid "error_upload_in_progress"
+msgstr ""
+
+#: includes/mux_fs.php:15
+msgid "freemius_message_opt_in"
+msgstr ""
+
+#: includes/mux_fs.php:14
+msgid "freemius_message_welcome_user"
+msgstr ""
+
+#: views/templates/header.php:17
+msgid "header_content_license_title"
+msgstr ""
+
+#: views/templates/header.php:15
+msgid "header_content_version_title"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.2coders.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.mux.2coders.com/"
+msgstr ""
+
+#. Name of the plugin
+msgid "2Coders integration for Mux Video"
+msgstr ""
+
+#: views/templates/mux_contact_container.php:3
+msgid "mux_contact_button"
+msgstr ""
+
+#: views/templates/mux_contact_container.php:2
+msgid "mux_contact_title"
+msgstr ""
+
+#: views/template-parts/asset-list_table.php:14
+msgid "no_items_to_show"
+msgstr ""
+
+#: views/template-parts/customize-player-other_data.php:16
+msgid "sc_customizer_aspect_ratio"
+msgstr ""
+
+#: views/template-parts/customize-shortcode.php:52
+msgid "sc_customizer_cancel_button"
+msgstr ""
+
+#: views/template-parts/customize-shortcode.php:53
+msgid "sc_customizer_create_button"
+msgstr ""
+
+#: views/template-parts/customize-player-other_data.php:5
+msgid "sc_customizer_full_width"
+msgstr ""
+
+#: views/template-parts/customize-player-other_data.php:43
+msgid "sc_customizer_max_resolution"
+msgstr ""
+
+#: views/template-parts/customize-player-other_data.php:8
+msgid "sc_customizer_max_width"
+msgstr ""
+
+#: views/template-parts/customize-player-options.php:13
+msgid "sc_customizer_player_options_autoplay"
+msgstr ""
+
+#: views/template-parts/customize-player-options.php:76
+msgid "sc_customizer_player_options_closed_captions"
+msgstr ""
+
+#: views/template-parts/customize-player-options.php:37
+msgid "sc_customizer_player_options_hotkeys"
+msgstr ""
+
+#: views/template-parts/customize-player-options.php:48
+msgid "sc_customizer_player_options_looping_content"
+msgstr ""
+
+#: views/template-parts/customize-player-options.php:24
+msgid "sc_customizer_player_options_mute"
+msgstr ""
+
+#: views/template-parts/customize-player-options.php:89
+msgid "sc_customizer_player_options_seek_buttons"
+msgstr ""
+
+#: views/template-parts/customize-player-options.php:92
+msgid "sc_customizer_player_options_seek_buttons_duration"
+msgstr ""
+
+#: views/template-parts/customize-player-options.php:64
+msgid "sc_customizer_player_options_show_controls"
+msgstr ""
+
+#: views/template-parts/customize-player-other_data.php:2
+msgid "sc_customizer_size_title"
+msgstr ""
+
+#: views/template-parts/customize-player-other_data.php:34
+msgid "sc_customizer_start_time"
+msgstr ""
+
+#: views/template-parts/customize-shortcode.php:11
+msgid "sc_customizer_tab_1"
+msgstr ""
+
+#: views/template-parts/customize-shortcode.php:12
+msgid "sc_customizer_tab_2"
+msgstr ""
+
+#: views/template-parts/customize-shortcode.php:13
+msgid "sc_customizer_tab_3"
+msgstr ""
+
+#: views/template-parts/customize-shortcode.php:24
+msgid "sc_customizer_thumbnail_time"
+msgstr ""
+
+#: views/template-parts/customize-shortcode.php:2
+msgid "sc_customizer_title"
+msgstr ""
+
+#: views/template-parts/customize-shortcode.php:20
+msgid "sc_customizer_video_title"
+msgstr ""
+
+#: views/template-parts/customize-player-options.php:102
+msgid "secs"
+msgstr ""
+
+#: includes/admin.php:68
+msgid "settings_button_edit_keys"
+msgstr ""
+
+#: views/settings.php:55 views/settings.php:94
+msgid "settings_button_save"
+msgstr ""
+
+#: views/settings.php:50
+msgid "settings_button_upload_video"
+msgstr ""
+
+#: views/settings.php:70
+msgid "settings_instructions_message_first"
+msgstr ""
+
+#: views/settings.php:71
+msgid "settings_instructions_message_second"
+msgstr ""
+
+#: views/settings.php:50
+msgid "settings_message_auth_content"
+msgstr ""
+
+#: views/settings.php:49
+msgid "settings_message_auth_title"
+msgstr ""
+
+#: views/settings.php:65
+msgid "settings_message_onboarding"
+msgstr ""
+
+#: views/settings.php:61
+msgid "settings_message_signing_data_empty"
+msgstr ""
+
+#: views/settings.php:46
+msgid "settings_message_unauth"
+msgstr ""
+
+#: views/settings.php:78
+msgid "settings_security_description"
+msgstr ""
+
+#: includes/translations.php:31
+msgid "settings_security_notice_invalid_domain"
+msgstr ""
+
+#: includes/translations.php:30
+msgid "settings_security_notice_limit_domains"
+msgstr ""
+
+#: views/settings.php:33
+msgid "settings_security_section_title"
+msgstr ""
+
+#: views/settings.php:92
+msgid "settings_security_switch_referrer_input"
+msgstr ""
+
+#: views/settings.php:77
+msgid "settings_security_title"
+msgstr ""
+
+#: includes/translations.php:28
+msgid "settings_warn_modal_save_cancel"
+msgstr ""
+
+#: includes/translations.php:26
+msgid "settings_warn_modal_save_description"
+msgstr ""
+
+#: includes/translations.php:27
+msgid "settings_warn_modal_save_exit"
+msgstr ""
+
+#: includes/translations.php:29
+msgid "settings_warn_modal_save_title"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Streamline your WordPress video content with the ultimate Mux integration "
+"plugin."
+msgstr ""
+
+#: views/template-parts/customize-player-options.php:11
+#: views/template-parts/customize-player-options.php:22
+#: views/template-parts/customize-player-options.php:35
+#: views/template-parts/customize-player-options.php:46
+#: views/template-parts/customize-player-options.php:62
+#: views/template-parts/customize-player-options.php:74
+#: views/template-parts/customize-player-options.php:87
+msgid "Yes"
+msgstr ""

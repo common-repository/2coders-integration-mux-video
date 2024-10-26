@@ -1,0 +1,569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mux Media\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-17 08:20+0000\n"
+"PO-Revision-Date: 2024-02-08 09:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2\n"
+"X-Domain: mux-media\n"
+
+#. Author of the plugin
+msgid "2Coders Studio"
+msgstr ""
+
+#: includes/admin.php:52 includes/admin.php:62
+msgid "admin_message_format_error"
+msgstr "Incorrect format entered"
+
+#: includes/admin.php:78 views/settings.php:32
+msgid "admin_title_key_section"
+msgstr "Access Tokens"
+
+#: includes/admin.php:82
+msgid "admin_title_secret_key"
+msgstr "Secret Key"
+
+#: includes/admin.php:80
+msgid "admin_title_site_key"
+msgstr "Access Token ID"
+
+#: views/template-parts/asset-list_table.php:90
+msgid "asset_list_asset_content_details"
+msgstr "Details"
+
+#: views/template-parts/asset-list_table.php:119
+msgid "asset_list_asset_content_details_aspect_ratio"
+msgstr "Aspect Ratio"
+
+#: views/template-parts/asset-list_table.php:101
+msgid "asset_list_asset_content_details_duration"
+msgstr "Duration"
+
+#: views/template-parts/asset-list_table.php:95
+msgid "asset_list_asset_content_details_id"
+msgstr "Asset ID"
+
+#: views/template-parts/asset-list_table.php:113
+msgid "asset_list_asset_content_details_max_frame_rate"
+msgstr "Max Frame Rate"
+
+#: views/template-parts/asset-list_table.php:107
+msgid "asset_list_asset_content_details_max_resolution"
+msgstr "Max resolution"
+
+#: views/template-parts/asset-list_table.php:72
+msgid "asset_list_asset_content_streamurl"
+msgstr "MUX stream URL"
+
+#: includes/translations.php:9
+msgid "asset_list_asset_status_disabled"
+msgstr "disabled"
+
+#: includes/translations.php:7
+msgid "asset_list_asset_status_errored"
+msgstr "errored"
+
+#: includes/translations.php:8
+msgid "asset_list_asset_status_preparing"
+msgstr "preparing"
+
+#. File to load all translations to the pot file that are not added by default (js files, etc.)
+#: includes/translations.php:6
+msgid "asset_list_asset_status_ready"
+msgstr "ready"
+
+#: views/template-parts/asset-list_table.php:49
+msgid "asset_list_button_copy_shortcode"
+msgstr "Copy shortcode"
+
+#: views/template-parts/asset-list_table.php:59
+msgid "asset_list_button_customize_shortcode"
+msgstr "Customize Shortcode"
+
+#: views/template-parts/asset-list_table.php:60
+msgid "asset_list_button_delete_asset"
+msgstr "Delete"
+
+#: views/asset-list.php:47
+msgid "asset_list_button_load_more"
+msgstr "Load more"
+
+#: views/asset-list.php:28
+msgid "asset_list_button_upload_video"
+msgstr "Upload video"
+
+#: includes/functions-components.php:21
+msgid "asset_list_hours"
+msgstr "h"
+
+#: views/template-parts/asset-list_table.php:52
+msgid "asset_list_message_shortcode_copied"
+msgstr "shortcode copied!"
+
+#: views/template-parts/asset-list_table.php:84
+msgid "asset_list_message_url_copied"
+msgstr "url copied!"
+
+#: includes/functions-components.php:22
+msgid "asset_list_minutes"
+msgstr "min"
+
+#: includes/functions-components.php:23
+msgid "asset_list_seconds"
+msgstr "sec"
+
+#: views/asset-list.php:38
+msgid "asset_list_table_title_date"
+msgstr "CREATED"
+
+#: views/asset-list.php:37
+msgid "asset_list_table_title_duration"
+msgstr "DURATION"
+
+#: views/asset-list.php:35
+msgid "asset_list_table_title_id"
+msgstr "ASSET ID"
+
+#: views/asset-list.php:34
+msgid "asset_list_table_title_preview"
+msgstr "IMAGE VIDEO"
+
+#: views/asset-list.php:36
+msgid "asset_list_table_title_status"
+msgstr "STATUS"
+
+#: views/asset-list.php:22
+msgid "asset_list_title_page"
+msgstr "Asset list"
+
+#: includes/translations.php:10
+msgid "asset_list_warn_modal_delete_asset_cancel"
+msgstr "Cancel"
+
+#: includes/translations.php:11
+msgid "asset_list_warn_modal_delete_asset_confirm"
+msgstr "Confirm"
+
+#: includes/translations.php:12
+msgid "asset_list_warn_modal_delete_asset_description"
+msgstr "The video will be completely removed"
+
+#: includes/translations.php:13
+msgid "asset_list_warn_modal_delete_asset_title"
+msgstr "Are you sure you want to delete this video?"
+
+#: includes/translations.php:14
+msgid "asset_upload_asset_status_cancelled"
+msgstr "Cancelled"
+
+#: includes/translations.php:15
+msgid "asset_upload_asset_status_cancelling"
+msgstr "Cancelling"
+
+#: includes/translations.php:16 includes/translations.php:17
+msgid "asset_upload_button_cancel_upload"
+msgstr "Cancel"
+
+#: views/asset-upload.php:52
+msgid "asset_upload_button_view_assets"
+msgstr "View Assets"
+
+#: views/asset-upload.php:93
+msgid "asset_upload_instructions_message_first"
+msgstr ""
+"The Mux Video API uses a token key pair that consists of an Access Token ID "
+"and Secret Key for authentication. If you would like to make use of the "
+"protection rules on this plugin, the generated access token from Mux must "
+"include system permissions allowed. Unless you have already done so, you can "
+"generate a new Access Token in the <a href=\"https://dashboard.mux."
+"com/settings/access-tokens\" target=\"_blank\">Access Token settings</a> of "
+"your Mux account dashboard."
+
+#: views/asset-upload.php:94
+msgid "asset_upload_instructions_message_second"
+msgstr ""
+"Access Tokens also belong to an Environment. Be sure to use the same "
+"Environment when using Mux Video and Mux Data together, so the data from Mux "
+"Data can be used to optimize your Mux Video streams."
+
+#: views/asset-upload.php:78
+msgid "asset_upload_message_drop_video"
+msgstr "Drop a video"
+
+#: views/asset-upload.php:78
+msgid "asset_upload_message_drop_video_2"
+msgstr "here to upload"
+
+#: views/asset-upload.php:82
+msgid "asset_upload_message_drop_video_hovered"
+msgstr "Drop it!"
+
+#: views/asset-upload.php:79
+msgid "asset_upload_message_or"
+msgstr "or"
+
+#: views/asset-upload.php:80
+msgid "asset_upload_message_pick_file"
+msgstr "Pick a file"
+
+#: views/asset-upload.php:60 views/asset-upload.php:66
+msgid "asset_upload_privacy_switcher_public"
+msgstr "Public"
+
+#: views/asset-upload.php:59 views/asset-upload.php:64
+msgid "asset_upload_privacy_switcher_signed"
+msgstr "Protected"
+
+#: views/asset-upload.php:55
+msgid "asset_upload_privacy_title"
+msgstr "Choose your privacy"
+
+#: views/asset-upload.php:51
+msgid "asset_upload_title_page"
+msgstr "Asset Upload"
+
+#: includes/translations.php:18
+msgid "asset_upload_warn_modal_uploading_cancel"
+msgstr "Cancel"
+
+#: includes/translations.php:19
+msgid "asset_upload_warn_modal_uploading_confirm"
+msgstr "Confirm"
+
+#: includes/translations.php:20
+msgid "asset_upload_warn_modal_uploading_description"
+msgstr "Doing so will cancel your ongoing upload."
+
+#: includes/translations.php:21
+msgid "asset_upload_warn_modal_uploading_title"
+msgstr "Are you sure you want to leave?"
+
+#: includes/functions.php:279
+msgid "common_disclaimer_text"
+msgstr ""
+"Mux, Mux Video, and others are trademarks of Mux, Inc., and are used here "
+"with permission."
+
+#: views/asset-upload.php:92 views/settings.php:69
+msgid "common_instructions_title"
+msgstr "Instructions"
+
+#: includes/functions.php:270
+msgid "common_notice_configuration_pending"
+msgstr ""
+"Don't forget to add your API Key to use 2Coders integration for Mux Video. <a "
+"href=\"admin.php?page=mux-settings\">Click here to go to settings page.</a>"
+
+#: includes/translations.php:32
+msgid "common_notice_error_deleted_asset"
+msgstr "The asset you are trying to access does not exist or has been deleted."
+
+#: includes/translations.php:33
+msgid "common_notice_error_unauth_asset"
+msgstr ""
+"You are not allowed to access this resource, <a href='admin.php?page=mux-"
+"settings'>configure your playback restrictions</a> to watch it"
+
+#: includes/functions.php:292
+msgid "common_notice_new_version_available"
+msgstr "There is a new version available. Download it from our "
+
+#: includes/functions.php:292
+msgid "common_notice_new_version_available_cta"
+msgstr "official website"
+
+#: includes/translations.php:22
+msgid "common_notice_offline"
+msgstr "You are without internet connection"
+
+#: includes/translations.php:23
+msgid "common_notice_online_back"
+msgstr "You are now back online."
+
+#: includes/translations.php:35
+msgid "common_notice_saved_security_settings"
+msgstr "Security settings saved successfully"
+
+#: includes/translations.php:34
+msgid "common_notice_shortcode_copied_success"
+msgstr "The shortcode has been copied successfully."
+
+#: views/templates/pro_version_banner.php:7 views/templates/sidebar.php:8
+msgid "common_premium_banner_description"
+msgstr "Coming soon"
+
+#: views/templates/pro_version_banner.php:6 views/templates/sidebar.php:7
+msgid "common_premium_banner_title"
+msgstr "Get ready"
+
+#: views/templates/pro_version_banner.php:5 views/templates/sidebar.php:5
+msgid "common_premium_name"
+msgstr "PRO"
+
+#: includes/translations.php:24
+msgid "error_format_not_supported"
+msgstr "The format is not supported or source is unavailable"
+
+#: includes/translations.php:25
+msgid "error_upload_in_progress"
+msgstr "There's already an upload in progress"
+
+#: includes/mux_fs.php:15
+msgid "freemius_message_opt_in"
+msgstr ""
+"To help us improve our plugin, we'd love to gather some feedback on how you "
+"use it. If you choose to opt-in, we'll receive some usage data via freemius."
+"com. If you'd rather not share your data, that's perfectly fine - the plugin "
+"will still work great! <br><br>\n"
+"\n"
+"Thank you for using Mux Video Plugin, and we hope you find it helpful!"
+
+#: includes/mux_fs.php:14
+msgid "freemius_message_welcome_user"
+msgstr "Hello %1$s"
+
+#: views/templates/header.php:17
+#, fuzzy
+#| msgid "header_content_licence_title"
+msgid "header_content_license_title"
+msgstr "License"
+
+#: views/templates/header.php:15
+msgid "header_content_version_title"
+msgstr "Version"
+
+#. Author URI of the plugin
+msgid "https://www.2coders.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.mux.2coders.com/"
+msgstr ""
+
+#. Name of the plugin
+msgid "2Coders integration for Mux Video"
+msgstr ""
+
+#: views/templates/mux_contact_container.php:3
+msgid "mux_contact_button"
+msgstr "Contact"
+
+#: views/templates/mux_contact_container.php:2
+msgid "mux_contact_title"
+msgstr "Need help with Mux? Contact the Mux support team"
+
+#: views/template-parts/asset-list_table.php:14
+msgid "no_items_to_show"
+msgstr "There are no assets to be shown"
+
+#: views/template-parts/customize-player-other_data.php:16
+msgid "sc_customizer_aspect_ratio"
+msgstr "Aspect ratio"
+
+#: views/template-parts/customize-shortcode.php:52
+msgid "sc_customizer_cancel_button"
+msgstr "Close"
+
+#: views/template-parts/customize-shortcode.php:53
+msgid "sc_customizer_create_button"
+msgstr "Copy shortcode"
+
+#: views/template-parts/customize-player-other_data.php:5
+msgid "sc_customizer_full_width"
+msgstr "Full width"
+
+#: views/template-parts/customize-player-other_data.php:43
+msgid "sc_customizer_max_resolution"
+msgstr "Max. resolution"
+
+#: views/template-parts/customize-player-other_data.php:8
+msgid "sc_customizer_max_width"
+msgstr "Max width"
+
+#: views/template-parts/customize-player-options.php:13
+msgid "sc_customizer_player_options_autoplay"
+msgstr "Autoplay"
+
+#: views/template-parts/customize-player-options.php:76
+msgid "sc_customizer_player_options_closed_captions"
+msgstr "Closed captions"
+
+#: views/template-parts/customize-player-options.php:37
+msgid "sc_customizer_player_options_hotkeys"
+msgstr "HotKeys"
+
+#: views/template-parts/customize-player-options.php:48
+msgid "sc_customizer_player_options_looping_content"
+msgstr "Looping content"
+
+#: views/template-parts/customize-player-options.php:24
+msgid "sc_customizer_player_options_mute"
+msgstr "Mute"
+
+#: views/template-parts/customize-player-options.php:89
+msgid "sc_customizer_player_options_seek_buttons"
+msgstr "Show seek buttons"
+
+#: views/template-parts/customize-player-options.php:92
+msgid "sc_customizer_player_options_seek_buttons_duration"
+msgstr "Seek buttons duration"
+
+#: views/template-parts/customize-player-options.php:64
+msgid "sc_customizer_player_options_show_controls"
+msgstr "Show controls"
+
+#: views/template-parts/customize-player-other_data.php:2
+msgid "sc_customizer_size_title"
+msgstr "Width"
+
+#: views/template-parts/customize-player-other_data.php:34
+msgid "sc_customizer_start_time"
+msgstr "Start time"
+
+#: views/template-parts/customize-shortcode.php:11
+msgid "sc_customizer_tab_1"
+msgstr "Info"
+
+#: views/template-parts/customize-shortcode.php:12
+msgid "sc_customizer_tab_2"
+msgstr "Player options"
+
+#: views/template-parts/customize-shortcode.php:13
+msgid "sc_customizer_tab_3"
+msgstr "Other"
+
+#: views/template-parts/customize-shortcode.php:24
+msgid "sc_customizer_thumbnail_time"
+msgstr "Thumbnail time"
+
+#: views/template-parts/customize-shortcode.php:2
+msgid "sc_customizer_title"
+msgstr "Shortcode customization"
+
+#: views/template-parts/customize-shortcode.php:20
+msgid "sc_customizer_video_title"
+msgstr "Video title"
+
+#: views/template-parts/customize-player-options.php:102
+msgid "secs"
+msgstr "secs"
+
+#: includes/admin.php:68
+msgid "settings_button_edit_keys"
+msgstr "Edit keys"
+
+#: views/settings.php:55 views/settings.php:94
+msgid "settings_button_save"
+msgstr "Save changes"
+
+#: views/settings.php:50
+msgid "settings_button_upload_video"
+msgstr "Upload Video"
+
+#: views/settings.php:70
+msgid "settings_instructions_message_first"
+msgstr ""
+"The Mux Video API uses a token key pair that consists of an Access Token ID "
+"and Secret Key for authentication. Unless you have already done so, you can "
+"generate a new Access Token in the <a href=\"https://dashboard.mux."
+"com/settings/access-tokens\" target=\"_blank\">Access Token settings</a> of "
+"your Mux account dashboard."
+
+#: views/settings.php:71
+msgid "settings_instructions_message_second"
+msgstr ""
+"Access Tokens also belong to an Environment. Be sure to use the same "
+"Environment when using Mux Video and Mux Data together, so the data from Mux "
+"Data can be used to optimize your Mux Video streams."
+
+#: views/settings.php:50
+msgid "settings_message_auth_content"
+msgstr "Now, you can start to upload your videos from"
+
+#: views/settings.php:49
+msgid "settings_message_auth_title"
+msgstr "Your configuration is ready!"
+
+#: views/settings.php:65
+msgid "settings_message_onboarding"
+msgstr ""
+"Configure your Mux keys and start uploading your assets. Do you have "
+"questions about how to do it? Take a look at our <a href=\"https://muxvideo."
+"2coders.com/wp-content/uploads/2023/10/User-Manual-2coders-integration-mux-video."
+"pdf\" target=\"_blank\">manual</a>"
+
+#: views/settings.php:61
+msgid "settings_message_signing_data_empty"
+msgstr ""
+"Video security configuration will be only available if the Access Tokens "
+"allows system configuration. Check your current Access Tokens"
+
+#: views/settings.php:46
+msgid "settings_message_unauth"
+msgstr "Wrong or missing Mux keys"
+
+#: views/settings.php:78
+msgid "settings_security_description"
+msgstr ""
+"You can choose on which domains the videos should be displayed by using tags."
+" Up to 10 tags."
+
+#: includes/translations.php:31
+msgid "settings_security_notice_invalid_domain"
+msgstr "Enter a valid domain"
+
+#: includes/translations.php:30
+msgid "settings_security_notice_limit_domains"
+msgstr "You have reached the limit of allowed domains"
+
+#: views/settings.php:33
+msgid "settings_security_section_title"
+msgstr "Video security"
+
+#: views/settings.php:92
+msgid "settings_security_switch_referrer_input"
+msgstr "Allow non referred"
+
+#: views/settings.php:77
+msgid "settings_security_title"
+msgstr "Allowed origins"
+
+#: includes/translations.php:28
+msgid "settings_warn_modal_save_cancel"
+msgstr "Cancel"
+
+#: includes/translations.php:26
+msgid "settings_warn_modal_save_description"
+msgstr "Save your information before leaving"
+
+#: includes/translations.php:27
+msgid "settings_warn_modal_save_exit"
+msgstr "Leave without saving"
+
+#: includes/translations.php:29
+msgid "settings_warn_modal_save_title"
+msgstr "You have modified changes"
+
+#. Description of the plugin
+msgid ""
+"Streamline your WordPress video content with the ultimate Mux integration "
+"plugin."
+msgstr ""
+
+#: views/template-parts/customize-player-options.php:11
+#: views/template-parts/customize-player-options.php:22
+#: views/template-parts/customize-player-options.php:35
+#: views/template-parts/customize-player-options.php:46
+#: views/template-parts/customize-player-options.php:62
+#: views/template-parts/customize-player-options.php:74
+#: views/template-parts/customize-player-options.php:87
+msgid "Yes"
+msgstr "Yes"

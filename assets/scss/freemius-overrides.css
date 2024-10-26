@@ -1,0 +1,249 @@
+#header {
+  justify-content: center;
+  display: flex;
+  margin: 0 20px 20px 20px;
+  max-width: 100%;
+  padding: 0;
+  background: transparent !important;
+  box-shadow: none;
+  width: 100%;
+  text-align: center;
+}
+
+#header .product-header-body {
+  margin: 0 auto;
+}
+
+#header .product-icon {
+  display: none;
+  padding: 0.5rem 1rem;
+}
+
+#header .product-icon img {
+  width: 94px;
+  height: 94px;
+  object-fit: contain;
+}
+
+#header .product-header-body {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#header .product-header-body h1,
+#header .product-header-body h2,
+#header .product-header-body h3 {
+  color: #000;
+  margin-left: 0;
+}
+
+#packages {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#packages ul > li article.featured {
+  margin-top: 0;
+}
+
+#packages ul > li article.featured .offer .price var {
+  color: #000;
+}
+
+#packages ul > li article.featured h2 {
+  background: #0038D2;
+  color: #FFF;
+}
+
+#packages ul > li article.featured .ribbon {
+  display: none;
+}
+
+#packages .card {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(208, 208, 208, 0.6);
+}
+
+#packages .card.featured header h2 {
+  background-color: #0038D2;
+  color: #FFF;
+}
+
+#packages .card header h2 {
+  height: 20px;
+  background: #E2E4DD;
+  color: #828C97;
+  width: 100%;
+  padding: 25px 0;
+}
+
+#packages .card header h3 {
+  text-transform: none;
+  font-weight: 500;
+}
+
+#packages .card .body .price var {
+  color: #000;
+  font-size: 40px;
+}
+
+#packages .card .body .support,
+#packages .card .body .limits {
+  display: none;
+}
+
+#packages .card .body .licenses {
+  margin: 1rem auto;
+  background-color: #F6F6F6;
+}
+
+#packages .card .body .licenses ul {
+  padding: 0 18px;
+}
+
+#packages .card .body .licenses ul li.selected {
+  background-color: transparent;
+}
+
+#packages .card .body .licenses span, #packages .card .body .licenses input, #packages .card .body .licenses select, #packages .card .body .licenses label, #packages .card .body .licenses a, #packages .card .body .licenses div, #packages .card .body .licenses th, #packages .card .body .licenses td {
+  color: #000;
+}
+
+#packages .card .body .cta a:hover {
+  text-decoration: none;
+}
+
+#packages .btn {
+  display: flex;
+  justify-content: center;
+}
+
+#packages .btn button {
+  width: 80%;
+  max-width: 220px;
+  padding: 1rem 0.5rem !important;
+  transition: all 0.2s;
+  font-size: 18px;
+}
+
+#packages .btn .btn-primary {
+  text-decoration: none;
+  border-radius: 50px;
+  border: 0.5px solid #0038D2;
+  background: transparent;
+}
+
+#packages .btn .btn-primary span {
+  color: #0038D2;
+}
+
+#packages .btn .btn-primary img {
+  display: none;
+}
+
+#packages .btn .btn-primary:hover, #packages .btn .btn-primary:active, #packages .btn .btn-primary:focus {
+  background-color: #0038D2;
+  box-shadow: none;
+}
+
+#packages .btn .btn-primary:hover span, #packages .btn .btn-primary:active span, #packages .btn .btn-primary:focus span {
+  color: #FFF;
+}
+
+#packages .btn .btn-tertiary {
+  text-decoration: none;
+  border: 0.5px solid #929292;
+  background: transparent;
+  border-radius: 50px;
+  padding: 4px 8px;
+  margin-left: 5px;
+}
+
+#packages .btn .btn-tertiary:hover, #packages .btn .btn-tertiary:active, #packages .btn .btn-tertiary:focus {
+  border: 0.5px solid #000;
+  color: #000;
+  box-shadow: none;
+}
+
+#packages .btn .btn-tertiary span {
+  text-transform: math-auto;
+  color: #000;
+}
+
+#packages ul > li article .cta button.btn-tertiary span {
+  color: #828C97;
+  font-size: 18px;
+}
+
+#packages ul > li article .features {
+  border: 0;
+}
+
+#packages ul > li article .features li:before {
+  filter: grayscale(1);
+}
+
+#billing_cycle .btn {
+  border: 1px solid #0038D2;
+  border-radius: 50px;
+}
+
+#billing_cycle .slider {
+  background-color: #0038D2;
+}
+
+#billing_cycle .tab-slider {
+  font-size: 16px;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 50px;
+}
+
+#billing_cycle .tab-slider ul li {
+  font-weight: 500;
+  border-left: 1px solid #0038D2;
+}
+
+#billing_cycle .tab-slider ul li.selected {
+  background: #0038D2;
+  color: #FFF;
+  font-weight: 500;
+}
+
+.card header h3 {
+  padding: 5px 15px;
+}
+
+.tab-slider ul li.selected {
+  background: linear-gradient(226.26deg, #F2EAFB 5.44%, #EDF4FE 91.57%);
+  color: #7121AF;
+}
+
+button.btn-primary {
+  background: #7121AF;
+  border: 0;
+}
+
+#currencies_dropdown {
+  display: none;
+}
+
+/* Main header */
+#header.card {
+  background: #E5E8EB;
+}
+
+#header.card .product-header-body * {
+  color: black;
+  margin: 0 auto;
+}
+
+.button-primary {
+  background: #0038D2 !important;
+  color: #FFF !important;
+}
+
+
+
+/*# sourceMappingURL=freemius-overrides.css.map */

@@ -1,0 +1,112 @@
+.btn{
+    display: block;
+    min-width: 150px;
+    box-sizing: border-box;
+    padding: 0.9rem 3rem;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    line-height: 22px;
+    font-size: 14px;
+    transition: all 0.2s;
+    font-weight: 300;
+}
+
+.btn-primary{
+    color: $white;
+    transition: color 0.1s ease 0s, background-color 0.1s ease 0s;
+    background-color: $blue;
+
+    &:hover, &:active, &:focus{
+        color: $white;
+        background-color:$blue-hovered;
+        box-shadow: none;
+    }
+
+    
+}
+
+.btn-cancel{
+    border: 1px solid $red;
+    color: $red;
+
+    &:hover{
+        color: $grey800;
+        border-color: $grey800;
+    }
+}
+
+.btn-save{
+    width: 185px;
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 0.5rem 3rem;
+    transition: 0.2s;
+    color: $white;     
+    background: $green;
+
+    .loading-container {
+        justify-content: center;
+        
+        div{
+            background-color: $white;
+        }
+    }
+
+    &:hover, &:active, &:focus{
+        color: $white;     
+        background: $green-hovered;
+        box-shadow: none;
+    }
+}
+
+.btn-modal{
+    width: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.3rem 0rem;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 400;
+    transition: 0.2s;
+
+    &__save{
+        flex: none;
+        color: $white;     
+        background: $blue;
+
+        &:hover{
+            background: $blue-hovered;
+        }
+
+    }
+
+    &__cancel{
+        border: 1px solid $grey;
+        color: $grey;
+        background: $white;
+    }
+}
+
+.btn-tertiary{
+    color: black;
+    text-decoration: none;
+    border: 0.5px solid $grey;
+    border-radius: 50px;
+    padding: 4px 8px;
+    margin-left: 5px;
+    transition: all 0.2s;
+    cursor: pointer;
+
+    &:hover, &:active, &:focus{
+        border: 0.5px solid $grey;
+        color: black;
+        background-color: #f4f4f4;
+        box-shadow: none;
+    }
+
+}
